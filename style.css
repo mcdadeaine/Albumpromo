@@ -54,19 +54,17 @@ body {
     transform: translate(-50%, -50%);
     background: rgba(255,255,255,0.05);
     border: 1px solid #a700ff;
-    padding: 40px 70px;
+    padding: 10px 50px;
     text-align: center;
-    color: white;
+    color: magenta;
     letter-spacing: 4px;
-    font-size: 1.4rem;
-    text-shadow: 0 0 12px #d63cff;
+    font-size: 2rem;
+    text-shadow: 0 0 15px #ffffff;
     animation: pulse 3s infinite;
 }
 
 @keyframes pulse {
-    0% { box-shadow: 0 0 10px #ff00ff; }
-    50% { box-shadow: 0 0 25px #00fff7; }
-    100% { box-shadow: 0 0 10px #ff00ff; }
+    50% { box-shadow: 0 0 25px #ffffff; }
 }
 
 /*floating boxes*/
