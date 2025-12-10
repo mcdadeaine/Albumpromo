@@ -124,3 +124,30 @@
     object-fit: cover;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    font-family: "Courier New", monospace;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*glowing text */
+.code-block {
+    white-space: pre-wrap;
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+    
+color: #ff00ff;
+text-shadow:
+    0 0 5px #ff00ff,
+    0 0 10px #ff00ff,
+    0 0 20px #ff00ff,
+    0 0 40px #ff00ff,
+    0 0 80px #ff00ff;
+}
+
