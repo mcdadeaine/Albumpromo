@@ -81,18 +81,32 @@
 }
 
 /* box floating positions */
-#album-art { top: 12%; left: 20%; }
-#tracklist { top: 30%; right: 18%; }
-#tour { bottom: 25%; left: 15%; }
-#gallery { bottom: 12%; right: 22%; }
-#about { top: 55%; left: 50%; transform: translateX(-50%); }
-
+.hub-bg #gifs {
+    top: 12%;
+    left: 20%;
+}
+.hub-bg #tracklist {
+    top: 30%;
+    right: 18%;
+}
+.hub-bg #tour {
+    bottom: 25%;
+    left: 15%;
+}
+.hub-bg #gallery {
+    bottom: 12%;
+    right: 22%;
+}
+.hub-bg #musicvideo {
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%);
+}
 /* animation*/
 @keyframes float {
     0% { transform: translateY(0px); }
     100% { transform: translateY(20px); }
 }
-
 /*panels*/
 .panel {
     position: fixed;
